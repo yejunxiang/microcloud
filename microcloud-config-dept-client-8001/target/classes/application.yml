@@ -1,0 +1,3 @@
+spring:
+  application: 
+    name: microcloud-config-dept-client       # dept微服务名称（此名称为日后负载均衡）

@@ -1,0 +1,422 @@
+2018-08-11 10:27:45.474 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4dccedfd: startup date [Sat Aug 11 10:27:45 CST 2018]; root of context hierarchy
+2018-08-11 10:27:46.453 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-11 10:27:46.780 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6387ce7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-11 10:27:50.312 [restartedMain] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator -Fetching config from server at: http://localhost:8888
+2018-08-11 10:27:53.648 [restartedMain] WARN  o.s.c.c.c.ConfigServicePropertySourceLocator -Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/microcloud-provider-dept/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-08-11 10:27:53.681 [restartedMain] INFO  c.c.m.Dept_8001_StartSpringCloudApplication -No active profile set, falling back to default profiles: default
+2018-08-11 10:27:53.727 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12276e32: startup date [Sat Aug 11 10:27:53 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4dccedfd
+2018-08-11 10:27:58.551 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=bb4e4df7-a7d1-3f7a-9c85-10fd93a819d0
+2018-08-11 10:27:58.582 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-11 10:27:58.766 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$1c4b202b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-11 10:27:58.787 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ea1e79ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-11 10:27:58.878 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6387ce7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-11 10:27:59.185 [restartedMain] INFO  org.eclipse.jetty.util.log -Logging initialized @20865ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-11 10:28:00.537 [restartedMain] INFO  o.s.b.c.e.j.JettyEmbeddedServletContainerFactory -Server initialized with port: 8001
+2018-08-11 10:28:00.541 [restartedMain] INFO  org.eclipse.jetty.server.Server -jetty-9.4.5.v20170502
+2018-08-11 10:28:00.770 [restartedMain] INFO  org.eclipse.jetty.server.session -DefaultSessionIdManager workerName=node0
+2018-08-11 10:28:00.771 [restartedMain] INFO  org.eclipse.jetty.server.session -No SessionScavenger set, using defaults
+2018-08-11 10:28:00.774 [restartedMain] INFO  org.eclipse.jetty.server.session -Scavenging every 600000ms
+2018-08-11 10:28:00.783 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application -Initializing Spring embedded WebApplicationContext
+2018-08-11 10:28:00.784 [restartedMain] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 7057 ms
+2018-08-11 10:28:01.475 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'metricsFilter' to: [/*]
+2018-08-11 10:28:01.475 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-11 10:28:01.476 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-11 10:28:01.478 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-11 10:28:01.478 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-11 10:28:01.481 [restartedMain] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean -Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-08-11 10:28:01.482 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-08-11 10:28:01.483 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-08-11 10:28:01.485 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-11 10:28:01.990 [restartedMain] INFO  o.e.j.server.handler.ContextHandler -Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@232ad9c5{/,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.3209817053091798156.8001/],AVAILABLE}
+2018-08-11 10:28:01.992 [restartedMain] INFO  org.eclipse.jetty.server.Server -Started @23675ms
+2018-08-11 10:28:09.313 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain -Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d9d6ab4, org.springframework.security.web.context.SecurityContextPersistenceFilter@1dfcc497, org.springframework.security.web.header.HeaderWriterFilter@1d51e56d, org.springframework.security.web.csrf.CsrfFilter@13f5b5bd, org.springframework.security.web.authentication.logout.LogoutFilter@5fa0936d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2fef813c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2348f110, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35a507d2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5eb0d65b, org.springframework.security.web.session.SessionManagementFilter@5ceb7b57, org.springframework.security.web.access.ExceptionTranslationFilter@9206a4a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@42662834]
+2018-08-11 10:28:09.350 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain -Creating filter chain: org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration$LazyEndpointPathRequestMatcher@3bbef952, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e84739c, org.springframework.security.web.context.SecurityContextPersistenceFilter@158bc3a7, org.springframework.security.web.header.HeaderWriterFilter@59e7e0b4, org.springframework.security.web.authentication.logout.LogoutFilter@50de57bb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@257c2df8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68b1f28f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@eb55d6d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ef6e4a1, org.springframework.security.web.session.SessionManagementFilter@7cc45e2e, org.springframework.security.web.access.ExceptionTranslationFilter@7da01ced, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@fd7e2b7]
+2018-08-11 10:28:10.840 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12276e32: startup date [Sat Aug 11 10:27:53 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4dccedfd
+2018-08-11 10:28:12.520 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/dept/get/{id}],methods=[GET]}" onto public java.lang.Object com.caxins.microcloud.rest.DeptRest.getDept(long)
+2018-08-11 10:28:12.527 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/dept/discover]}" onto public java.lang.Object com.caxins.microcloud.rest.DeptRest.discover(javax.servlet.http.HttpServletRequest)
+2018-08-11 10:28:12.531 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/dept/list],methods=[GET]}" onto public java.lang.Object com.caxins.microcloud.rest.DeptRest.getList()
+2018-08-11 10:28:12.546 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/dept/add],methods=[GET]}" onto public java.lang.Object com.caxins.microcloud.rest.DeptRest.addDept(com.caxins.vo.Dept)
+2018-08-11 10:28:12.549 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/dept/sessionId]}" onto public java.lang.Object com.caxins.microcloud.rest.DeptRest.getSessionId(javax.servlet.http.HttpServletRequest)
+2018-08-11 10:28:12.564 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-11 10:28:12.644 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-11 10:28:13.085 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-11 10:28:13.086 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-11 10:28:13.505 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-11 10:28:18.026 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-08-11 10:28:18.028 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:28:18.029 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-08-11 10:28:18.032 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-08-11 10:28:18.035 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-08-11 10:28:18.037 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-08-11 10:28:18.057 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:28:18.059 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-08-11 10:28:18.060 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-08-11 10:28:18.065 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-08-11 10:28:18.067 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:28:18.073 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:28:18.077 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-08-11 10:28:18.096 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:28:18.104 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-08-11 10:28:18.106 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:28:18.108 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-08-11 10:28:18.112 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:28:18.116 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:28:18.119 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:28:18.147 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:28:18.152 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-08-11 10:28:18.153 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-08-11 10:28:18.155 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:28:18.159 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:28:18.160 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2018-08-11 10:28:18.161 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2018-08-11 10:28:18.962 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -Unable to start LiveReload server
+2018-08-11 10:28:19.294 [restartedMain] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-08-11 10:28:19.295 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-11 10:28:19.317 [restartedMain] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-08-11 10:28:19.319 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-11 10:28:19.590 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2018-08-11 10:28:19.599 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-11 10:28:19.623 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-08-11 10:28:19.628 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-08-11 10:28:19.629 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-08-11 10:28:19.631 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-08-11 10:28:19.634 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2018-08-11 10:28:19.636 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-08-11 10:28:19.641 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-08-11 10:28:19.680 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-08-11 10:28:19.723 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2018-08-11 10:28:19.753 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-08-11 10:28:19.804 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=12276e32,type=ConfigurationPropertiesRebinder]
+2018-08-11 10:28:19.847 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-11 10:28:19.852 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-08-11 10:28:20.707 [restartedMain] INFO  o.s.c.s.DefaultLifecycleProcessor -Starting beans in phase 0
+2018-08-11 10:28:20.738 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+2018-08-11 10:28:20.899 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+2018-08-11 10:28:21.223 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+2018-08-11 10:28:21.224 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+2018-08-11 10:28:21.888 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+2018-08-11 10:28:21.889 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+2018-08-11 10:28:22.795 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 10:28:23.608 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -Disable delta property : false
+2018-08-11 10:28:23.610 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -Single vip registry refresh property : null
+2018-08-11 10:28:23.611 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -Force full registry fetch : false
+2018-08-11 10:28:23.611 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -Application is null : false
+2018-08-11 10:28:23.612 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -Registered Applications size is zero : true
+2018-08-11 10:28:23.613 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -Application version is -1: true
+2018-08-11 10:28:23.613 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -Getting all instance registry info from the eureka server
+2018-08-11 10:28:27.038 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -The response status is 200
+2018-08-11 10:28:27.041 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -Starting heartbeat executor: renew interval is: 2
+2018-08-11 10:28:27.047 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-08-11 10:28:27.052 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1533954507052 with initial instances count: 0
+2018-08-11 10:28:27.128 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -Registering application microcloud-provider-dept with eureka with status UP
+2018-08-11 10:28:27.131 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -Saw local status change event StatusChangeEvent [timestamp=1533954507131, current=UP, previous=STARTING]
+2018-08-11 10:28:27.174 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_MICROCLOUD-PROVIDER-DEPT/dept-8001.com: registering service...
+2018-08-11 10:28:27.444 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-11 10:28:27.445 [restartedMain] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-11 10:28:27.492 [restartedMain] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
+2018-08-11 10:28:27.577 [restartedMain] INFO  o.e.jetty.server.AbstractConnector -Started ServerConnector@4c019b2e{HTTP/1.1,[http/1.1]}{0.0.0.0:8001}
+2018-08-11 10:28:27.578 [restartedMain] INFO  o.s.b.c.e.j.JettyEmbeddedServletContainer -Jetty started on port(s) 8001 (http/1.1)
+2018-08-11 10:28:27.580 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 8001
+2018-08-11 10:28:27.591 [restartedMain] INFO  c.c.m.Dept_8001_StartSpringCloudApplication -Started Dept_8001_StartSpringCloudApplication in 43.754 seconds (JVM running for 49.274)
+2018-08-11 10:28:28.458 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_MICROCLOUD-PROVIDER-DEPT/dept-8001.com - registration status: 204
+2018-08-11 10:28:57.042 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient -Disable delta property : false
+2018-08-11 10:28:57.045 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient -Single vip registry refresh property : null
+2018-08-11 10:28:57.048 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient -Force full registry fetch : false
+2018-08-11 10:28:57.049 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient -Application is null : false
+2018-08-11 10:28:57.053 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient -Registered Applications size is zero : true
+2018-08-11 10:28:57.054 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient -Application version is -1: false
+2018-08-11 10:28:57.057 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient -Getting all instance registry info from the eureka server
+2018-08-11 10:28:57.101 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient -The response status is 200
+2018-08-11 10:33:23.637 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 10:36:59.276 [qtp330573331-34] ERROR c.alibaba.druid.pool.DruidDataSource -testWhileIdle is true, validationQuery not set
+2018-08-11 10:36:59.583 [qtp330573331-34] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+2018-08-11 10:38:23.643 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 10:38:28.565 [DiscoveryClient-2] ERROR c.n.discovery.TimedSupervisorTask -task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-11 10:38:34.490 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient -Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:815)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1379)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 26 common frames omitted
+2018-08-11 10:38:34.494 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -Request execution failed with message: java.net.SocketTimeoutException: Read timed out
+2018-08-11 10:38:34.580 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.s.t.d.RetryableEurekaHttpClient -Request execution succeeded on retry #1
+2018-08-11 10:43:23.649 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 10:48:23.658 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 10:53:23.669 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 10:58:23.673 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 11:03:23.676 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 11:08:23.683 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 11:13:23.950 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 11:15:55.605 [DiscoveryClient-2] ERROR c.n.discovery.TimedSupervisorTask -task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-11 11:18:24.376 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 11:23:24.380 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 11:28:24.448 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 11:33:24.511 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 11:38:24.624 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 11:43:24.631 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 11:48:24.650 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 11:53:24.665 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 11:58:24.684 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 12:03:24.688 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 12:08:24.730 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 12:13:24.769 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 12:18:24.859 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 12:23:24.870 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 12:28:24.874 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 12:33:24.915 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 12:46:24.521 [DiscoveryClient-0] ERROR c.n.discovery.TimedSupervisorTask -task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-11 12:46:46.102 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient -Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:815)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1379)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 26 common frames omitted
+2018-08-11 12:46:47.762 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -Request execution failed with message: java.net.SocketTimeoutException: Read timed out
+2018-08-11 12:46:51.398 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.s.t.d.RetryableEurekaHttpClient -Request execution succeeded on retry #1
+2018-08-11 12:46:55.016 [DiscoveryClient-0] ERROR c.n.discovery.TimedSupervisorTask -task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-11 12:48:19.898 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 12:48:31.701 [DiscoveryClient-2] ERROR c.n.discovery.TimedSupervisorTask -task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-11 12:53:20.149 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 12:58:20.158 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 13:03:20.161 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 13:08:20.164 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 13:13:20.298 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 13:18:20.307 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 13:23:20.310 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 13:28:20.312 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 13:33:20.347 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 13:38:20.357 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 13:43:20.376 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 13:48:20.386 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 13:53:20.390 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 13:58:20.415 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 14:03:20.431 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 14:08:20.714 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 14:13:20.732 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 14:18:20.776 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 14:23:20.782 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 14:28:20.793 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 14:42:09.047 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 14:47:09.053 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 14:52:09.056 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 14:57:09.087 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 15:02:09.093 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 15:07:09.116 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 15:12:09.118 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 15:17:09.128 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 15:22:09.520 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 15:27:09.525 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 15:32:09.530 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 15:37:09.557 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 15:42:09.568 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 15:44:39.639 [DiscoveryClient-0] ERROR c.n.discovery.TimedSupervisorTask -task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-11 15:47:09.574 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 15:52:09.578 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 15:53:28.973 [DiscoveryClient-0] ERROR c.n.discovery.TimedSupervisorTask -task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-11 15:57:29.060 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 16:02:29.135 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 16:07:29.152 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 16:12:29.157 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 16:17:29.163 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 16:22:29.272 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 16:27:29.314 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 16:32:29.328 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 16:37:29.360 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 17:01:50.132 [DiscoveryClient-0] ERROR c.n.discovery.TimedSupervisorTask -task supervisor timed out
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-11 17:02:34.276 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 17:07:34.415 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 17:12:34.429 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2018-08-11 17:15:26.054 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+2018-08-11 17:15:26.163 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12276e32: startup date [Sat Aug 11 10:27:53 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4dccedfd
+2018-08-11 17:15:27.344 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry -Unregistering application microcloud-provider-dept with eureka with status DOWN
+2018-08-11 17:15:27.370 [RMI TCP Connection(2)-127.0.0.1] WARN  c.netflix.discovery.DiscoveryClient -Saw local status change event StatusChangeEvent [timestamp=1533978927361, current=DOWN, previous=UP]
+2018-08-11 17:15:27.481 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_MICROCLOUD-PROVIDER-DEPT/dept-8001.com: registering service...
+2018-08-11 17:15:27.901 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -Shutting down DiscoveryClient ...
+2018-08-11 17:15:28.337 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -Unregistering ...
+2018-08-11 17:15:28.397 [DiscoveryClient-HeartbeatExecutor-2] INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_MICROCLOUD-PROVIDER-DEPT/dept-8001.com - Re-registering apps/MICROCLOUD-PROVIDER-DEPT
+2018-08-11 17:15:28.507 [DiscoveryClient-HeartbeatExecutor-2] INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_MICROCLOUD-PROVIDER-DEPT/dept-8001.com: registering service...
+2018-08-11 17:15:28.528 [DiscoveryClient-2] WARN  c.n.discovery.TimedSupervisorTask -task supervisor shutting down, can't accept the task
+2018-08-11 17:15:30.474 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_MICROCLOUD-PROVIDER-DEPT/dept-8001.com - registration status: 204
+2018-08-11 17:15:30.546 [DiscoveryClient-HeartbeatExecutor-2] INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_MICROCLOUD-PROVIDER-DEPT/dept-8001.com - registration status: 204
+2018-08-11 17:15:34.063 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -DiscoveryClient_MICROCLOUD-PROVIDER-DEPT/dept-8001.com - deregister  status: 200
+2018-08-11 17:15:34.932 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -Completed shut down of DiscoveryClient
+2018-08-11 17:15:42.997 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.s.DefaultLifecycleProcessor -Stopping beans in phase 0
+2018-08-11 17:15:44.742 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2018-08-11 17:15:44.759 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter -Unregistering JMX-exposed beans
+2018-08-11 17:15:45.506 [RMI TCP Connection(2)-127.0.0.1] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} closed
+2018-08-11 17:15:46.405 [RMI TCP Connection(2)-127.0.0.1] INFO  o.e.jetty.server.AbstractConnector -Stopped ServerConnector@4c019b2e{HTTP/1.1,[http/1.1]}{0.0.0.0:8001}
+2018-08-11 17:15:46.425 [RMI TCP Connection(2)-127.0.0.1] INFO  org.eclipse.jetty.server.session -Stopped scavenging
+2018-08-11 17:15:47.712 [RMI TCP Connection(2)-127.0.0.1] INFO  o.e.j.s.h.ContextHandler.application -Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-08-11 17:15:48.048 [RMI TCP Connection(2)-127.0.0.1] INFO  o.e.j.server.handler.ContextHandler -Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@232ad9c5{/,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.3209817053091798156.8001/],UNAVAILABLE}

@@ -1,0 +1,9 @@
+spring: 
+  cloud:
+    config:
+      name: microcloud-config-eureka-client       # 定义要读取的资源文件的名称
+      profile: beta    # 定义profile的名称
+      label: master    # 定义配置文件所在的分支
+      uri: http://localhost:7101
+      username: nevergiveup
+      password: never

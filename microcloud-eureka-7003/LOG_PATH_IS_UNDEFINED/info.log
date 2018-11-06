@@ -1,0 +1,81 @@
+2018-08-12 00:00:34.861 [qtp1413031653-368] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-12 00:00:39.390 [qtp1413031653-369] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-ZUUL-GATEWAY/gateway-9501.com with status UP (replication=true)
+2018-08-12 00:00:39.391 [qtp1413031653-367] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-12 00:00:39.390 [qtp1413031653-365] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-12 00:00:34.443 [qtp1413031653-352] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-12 00:00:34.623 [qtp1413031653-371] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-12 00:00:34.842 [qtp1413031653-354] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-12 00:00:34.861 [qtp1413031653-374] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-12 00:00:34.871 [qtp1413031653-366] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-12 00:00:34.861 [qtp1413031653-363] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-12 00:00:34.842 [qtp1413031653-356] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-12 00:00:34.428 [qtp1413031653-362] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-ZUUL-GATEWAY/gateway-9501.com with status UP (replication=true)
+2018-08-12 00:00:58.927 [qtp1413031653-362] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-12 00:00:58.927 [qtp1413031653-354] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-ZUUL-GATEWAY/gateway-9501.com with status UP (replication=true)
+2018-08-12 00:00:58.928 [qtp1413031653-369] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-12 00:01:14.961 [qtp1413031653-383] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-ZUUL-GATEWAY/gateway-9501.com with status UP (replication=true)
+2018-08-12 00:03:39.135 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-12 00:04:12.624 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+2018-08-12 00:04:12.840 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e78a230: startup date [Sat Aug 11 10:16:26 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7cf69d96
+2018-08-12 00:04:15.635 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry -Unregistering application unknown with eureka with status DOWN
+2018-08-12 00:04:16.083 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -Shutting down DiscoveryClient ...
+2018-08-12 00:04:16.097 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient -Completed shut down of DiscoveryClient
+2018-08-12 00:04:20.035 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.s.DefaultLifecycleProcessor -Stopping beans in phase 0
+2018-08-12 00:04:20.386 [RMI TCP Connection(2)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext -Shutting down ...
+2018-08-12 00:04:20.527 [TaskBatchingWorker-target_localhost-14] ERROR c.n.e.c.ReplicationTaskProcessor -Network level connection to peer localhost; retrying after delay
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.ConnectTimeoutException: Connect to localhost:7002 timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:116)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:71)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:187)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to localhost:7002 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 10 common frames omitted
+2018-08-12 00:04:20.527 [TaskBatchingWorker-target_localhost-3] ERROR c.n.e.c.ReplicationTaskProcessor -Network level connection to peer localhost; retrying after delay
+com.sun.jersey.api.client.ClientHandlerException: org.apache.http.conn.ConnectTimeoutException: Connect to localhost:7001 timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:116)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:71)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:187)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to localhost:7001 timed out
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 10 common frames omitted
+2018-08-12 00:04:21.272 [RMI TCP Connection(2)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext -Shut down
+2018-08-12 00:04:21.824 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2018-08-12 00:04:21.832 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter -Unregistering JMX-exposed beans
+2018-08-12 00:04:22.565 [RMI TCP Connection(2)-127.0.0.1] INFO  o.e.jetty.server.AbstractConnector -Stopped ServerConnector@2d580d8d{HTTP/1.1,[http/1.1]}{0.0.0.0:7003}
+2018-08-12 00:04:22.601 [RMI TCP Connection(2)-127.0.0.1] INFO  org.eclipse.jetty.server.session -Stopped scavenging
+2018-08-12 00:04:23.381 [RMI TCP Connection(2)-127.0.0.1] INFO  o.e.j.s.h.ContextHandler.application -Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-08-12 00:04:23.472 [RMI TCP Connection(2)-127.0.0.1] INFO  o.e.j.server.handler.ContextHandler -Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@6fc6cc77{/,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.6392547619659104608.7003/],UNAVAILABLE}

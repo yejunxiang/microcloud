@@ -1,0 +1,60 @@
+2018-03-14 22:32:48.577 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3bf86a79: startup date [Wed Mar 14 22:32:48 CST 2018]; root of context hierarchy
+2018-03-14 22:32:49.284 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-14 22:32:49.484 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c12fa301] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-14 22:32:51.080 [restartedMain] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator -Fetching config from server at: http://localhost:8888
+2018-03-14 22:32:52.247 [restartedMain] WARN  o.s.c.c.c.ConfigServicePropertySourceLocator -Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/microcloud-zuul-gateway/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-03-14 22:32:52.260 [restartedMain] INFO  c.c.m.Dept_8001_StartSpringCloudApplication -No active profile set, falling back to default profiles: default
+2018-03-14 22:32:52.311 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@347ede51: startup date [Wed Mar 14 22:32:52 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3bf86a79
+2018-03-14 22:32:55.470 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.caxins.microcloud]' package. Please check your configuration.
+2018-03-14 22:32:57.502 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=b7d92723-459e-39b9-a228-bfa601a82e03
+2018-03-14 22:32:57.531 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-14 22:32:59.053 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a515a004] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-14 22:33:01.504 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$d7424645] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-14 22:33:01.532 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c12fa301] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-14 22:33:02.175 [restartedMain] INFO  org.eclipse.jetty.util.log -Logging initialized @17879ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-14 22:33:02.726 [restartedMain] INFO  o.s.b.c.e.j.JettyEmbeddedServletContainerFactory -Server initialized with port: 9501
+2018-03-14 22:33:02.731 [restartedMain] INFO  org.eclipse.jetty.server.Server -jetty-9.4.5.v20170502
+2018-03-14 22:33:02.922 [restartedMain] INFO  org.eclipse.jetty.server.session -DefaultSessionIdManager workerName=node0
+2018-03-14 22:33:02.926 [restartedMain] INFO  org.eclipse.jetty.server.session -No SessionScavenger set, using defaults
+2018-03-14 22:33:02.931 [restartedMain] INFO  org.eclipse.jetty.server.session -Scavenging every 600000ms
+2018-03-14 22:33:02.946 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application -Initializing Spring embedded WebApplicationContext
+2018-03-14 22:33:02.947 [restartedMain] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 10636 ms
+2018-03-14 22:33:03.794 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-14 22:33:03.800 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'metricsFilter' to: [/*]
+2018-03-14 22:33:03.801 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-14 22:33:03.803 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-14 22:33:03.805 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-14 22:33:03.806 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-14 22:33:03.809 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-03-14 22:33:03.811 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-03-14 22:33:04.204 [restartedMain] INFO  o.e.j.server.handler.ContextHandler -Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@fdb902f{/,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.3961593640891555571.9501/],AVAILABLE}
+2018-03-14 22:33:04.208 [restartedMain] INFO  org.eclipse.jetty.server.Server -Started @19914ms
+2018-03-14 22:33:05.512 [restartedMain] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-03-14 22:33:05.513 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-03-14 22:33:05.531 [restartedMain] INFO  c.n.config.DynamicPropertyFactory -DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@34db4055
+2018-03-14 22:33:08.461 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@347ede51: startup date [Wed Mar 14 22:32:52 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3bf86a79
+2018-03-14 22:33:08.897 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-14 22:33:08.900 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-14 22:33:09.175 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 22:33:09.181 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 22:33:09.426 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-14 22:33:10.206 [restartedMain] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+2018-03-14 22:33:10.434 [restartedMain] INFO  org.eclipse.jetty.server.session -Stopped scavenging
+2018-03-14 22:33:10.447 [restartedMain] INFO  o.e.j.server.handler.ContextHandler -Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@fdb902f{/,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.3961593640891555571.9501/],UNAVAILABLE}
+2018-03-14 22:33:10.470 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-03-14 22:33:10.478 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+

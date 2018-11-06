@@ -1,0 +1,45 @@
+server:
+  port: 8001
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml    # mybatis配置文件所在路径
+  type-aliases-package: com.caxins.vo               # 定义所操作类的别名所在包
+  mapper-locations:                                 # 所有的mapper映射文件
+  - classpath:mybatis/mapper/**/*.xml
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource     # 配置当前要使用的数据源的操作类型
+    driver-class-name: org.gjt.mm.mysql.Driver       # 配置mysql的驱动程序类
+    url: jdbc:mysql://localhost:3306/caxins8001       # 数据库连接地址
+    username: springboot                                  # 数据库用户名
+    password: yjx941001                 # 数据库连接密码
+  dbcp2:                                               # 进行数据库连接池的配置
+    min-idle: 5										 # 数据库连接池的最小维持连接数
+    initial-size: 5                                   # 初始化提供的连接数
+    max-total: 5                                     # 最大的连接数
+    max-wait-millis: 200                               # 等待连接获取的最大超时时间
+  application: 
+    name: microcloud-provider-dept       # dept微服务名称（此名称为日后负载均衡）
+# security:
+  # basic:
+    # enabled: true # 启用SpringSecurity的安全配置项
+  # user:
+    # name: nevergiveup     # 认证用户名
+    # password: never      # 认证密码
+    # role:      # 授权角色 
+    # - USER
+  # sessions: always    # 此设置为保持Session状态（服务器内存可能会被占满）
+  # sessions: stateless   # 此设置为服务器不保存Session状态，每一次连接都是一个新的用户。
+eureka: 
+  client:     # 客户端进行Eureka注册配置
+    service-url:   
+      defaultZone: http://admin:caxinsjava@localhost:7001/eureka,http://admin:caxinsjava@localhost:7002/eureka,http://admin:caxinsjava@localhost:7003/eureka
+  instance: 
+    lease-renewal-interval-in-seconds: 2    # 设置心跳的时间间隔（默认是30秒）
+    lease-expiration-duration-in-seconds: 5    # 如果现在超过了5秒（上一次发送心跳后到等待下一次发送心跳的间隔时间）的间隔（默认是90秒），则认为该服务已经宕机了
+    instance-id: dept-8001.com      # 在信息列表中显示主机名称  
+    prefer-ip-address: true        # 访问的路径变为IP地址
+info: 
+  app.name: nevergiveup
+  company.name: com.caxins
+  build.artifactId: microcloud-provider-dept-8001
+  bulid.version: 0.0.1

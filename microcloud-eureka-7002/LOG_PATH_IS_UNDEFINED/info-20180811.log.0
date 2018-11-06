@@ -1,0 +1,417 @@
+2018-08-11 10:09:44.003 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1adcc1ef: startup date [Sat Aug 11 10:09:44 CST 2018]; root of context hierarchy
+2018-08-11 10:09:45.053 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-11 10:09:45.198 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$75b7d05d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-11 10:09:47.556 [restartedMain] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator -Fetching config from server at: http://localhost:8888
+2018-08-11 10:09:48.705 [restartedMain] WARN  o.s.c.c.c.ConfigServicePropertySourceLocator -Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/application/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-08-11 10:09:48.717 [restartedMain] INFO  c.c.m.Eureka_7002_StartSpringCloudApplication -No active profile set, falling back to default profiles: default
+2018-08-11 10:09:48.768 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26224909: startup date [Sat Aug 11 10:09:48 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1adcc1ef
+2018-08-11 10:09:51.617 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=a06c7109-9bfc-31e5-a64d-de50fe40e025
+2018-08-11 10:09:51.655 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-08-11 10:09:51.805 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$8bca73a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-11 10:09:51.839 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$75b7d05d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-11 10:09:52.560 [restartedMain] INFO  org.eclipse.jetty.util.log -Logging initialized @12009ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-08-11 10:09:53.376 [restartedMain] INFO  o.s.b.c.e.j.JettyEmbeddedServletContainerFactory -Server initialized with port: 7002
+2018-08-11 10:09:53.380 [restartedMain] INFO  org.eclipse.jetty.server.Server -jetty-9.4.5.v20170502
+2018-08-11 10:09:53.675 [restartedMain] INFO  org.eclipse.jetty.server.session -DefaultSessionIdManager workerName=node0
+2018-08-11 10:09:54.046 [restartedMain] INFO  org.eclipse.jetty.server.session -No SessionScavenger set, using defaults
+2018-08-11 10:09:54.053 [restartedMain] INFO  org.eclipse.jetty.server.session -Scavenging every 660000ms
+2018-08-11 10:09:54.079 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application -Initializing Spring embedded WebApplicationContext
+2018-08-11 10:09:54.080 [restartedMain] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 5312 ms
+2018-08-11 10:09:55.263 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'metricsFilter' to: [/*]
+2018-08-11 10:09:55.264 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-11 10:09:55.266 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-11 10:09:55.266 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-11 10:09:55.269 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-11 10:09:55.273 [restartedMain] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean -Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-08-11 10:09:55.275 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webRequestTraceFilter' to: [/*]
+2018-08-11 10:09:55.276 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'servletContainer' to urls: [/eureka/*]
+2018-08-11 10:09:55.278 [restartedMain] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-08-11 10:09:55.280 [restartedMain] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-11 10:09:55.710 [restartedMain] INFO  o.e.j.server.handler.ContextHandler -Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@7ee30909{/,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.1039138923377026589.7002/],AVAILABLE}
+2018-08-11 10:09:55.712 [restartedMain] INFO  org.eclipse.jetty.server.Server -Started @15165ms
+2018-08-11 10:09:56.987 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26224909: startup date [Sat Aug 11 10:09:48 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1adcc1ef
+2018-08-11 10:09:57.275 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-11 10:09:57.279 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-11 10:09:57.291 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2018-08-11 10:09:57.296 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2018-08-11 10:09:57.383 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-11 10:09:57.390 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-11 10:09:57.485 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-11 10:09:58.228 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain -Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-08-11 10:09:58.588 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain -Creating filter chain: org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration$LazyEndpointPathRequestMatcher@3f4100c5, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@276ecace, org.springframework.security.web.context.SecurityContextPersistenceFilter@29e42678, org.springframework.security.web.header.HeaderWriterFilter@95a7e02, org.springframework.security.web.authentication.logout.LogoutFilter@2a95774b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1a32289, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48ff0659, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@efb22da, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@402db808, org.springframework.security.web.session.SessionManagementFilter@7138dbf9, org.springframework.security.web.access.ExceptionTranslationFilter@eebc6f6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6325f25a]
+2018-08-11 10:09:58.633 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain -Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15d96e73, org.springframework.security.web.context.SecurityContextPersistenceFilter@706ecd68, org.springframework.security.web.header.HeaderWriterFilter@b3164a4, org.springframework.security.web.authentication.logout.LogoutFilter@491b25eb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4f98b42d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b573593, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1bc37619, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69484274, org.springframework.security.web.session.SessionManagementFilter@34dcdad0, org.springframework.security.web.access.ExceptionTranslationFilter@6e70a442, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77a5858c]
+2018-08-11 10:10:00.242 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:10:00.251 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2018-08-11 10:10:00.254 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2018-08-11 10:10:00.257 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:10:00.262 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:10:00.272 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-08-11 10:10:00.275 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:10:00.284 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:10:00.289 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:10:00.310 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:10:00.318 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:10:00.455 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:10:00.460 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2018-08-11 10:10:00.472 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-08-11 10:10:00.475 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-08-11 10:10:00.477 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-08-11 10:10:00.479 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2018-08-11 10:10:00.483 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2018-08-11 10:10:00.490 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2018-08-11 10:10:00.495 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+2018-08-11 10:10:00.499 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+2018-08-11 10:10:00.502 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:10:00.555 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-08-11 10:10:00.558 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:10:00.565 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2018-08-11 10:10:00.614 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2018-08-11 10:10:00.616 [restartedMain] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping -Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-08-11 10:10:01.180 [restartedMain] INFO  o.s.u.f.SpringTemplateLoader -SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26224909: startup date [Sat Aug 11 10:09:48 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1adcc1ef] and template loader path [classpath:/templates/]
+2018-08-11 10:10:01.182 [restartedMain] INFO  o.s.w.s.v.f.FreeMarkerConfigurer -ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-11 10:10:01.309 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer -Unable to start LiveReload server
+2018-08-11 10:10:01.478 [restartedMain] WARN  o.s.c.n.a.ArchaiusAutoConfiguration -No spring.application.name found, defaulting to 'application'
+2018-08-11 10:10:01.488 [restartedMain] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-08-11 10:10:01.490 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-11 10:10:01.503 [restartedMain] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-08-11 10:10:01.503 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-08-11 10:10:01.851 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+2018-08-11 10:10:01.989 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+2018-08-11 10:10:01.991 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -Client configured to neither register nor query for data.
+2018-08-11 10:10:02.021 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1533953402020 with initial instances count: 0
+2018-08-11 10:10:02.176 [restartedMain] INFO  c.n.e.DefaultEurekaServerContext -Initializing ...
+2018-08-11 10:10:02.180 [restartedMain] INFO  c.n.eureka.cluster.PeerEurekaNodes -Adding new peer nodes [http://admin:caxinsjava@localhost:7001/eureka/, http://admin:caxinsjava@localhost:7003/eureka/]
+2018-08-11 10:10:02.314 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+2018-08-11 10:10:02.315 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+2018-08-11 10:10:02.315 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+2018-08-11 10:10:02.319 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+2018-08-11 10:10:02.717 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+2018-08-11 10:10:02.719 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+2018-08-11 10:10:02.724 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+2018-08-11 10:10:02.726 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+2018-08-11 10:10:02.853 [restartedMain] INFO  c.n.eureka.cluster.PeerEurekaNodes -Replica node URL:  http://admin:caxinsjava@localhost:7001/eureka/
+2018-08-11 10:10:02.854 [restartedMain] INFO  c.n.eureka.cluster.PeerEurekaNodes -Replica node URL:  http://admin:caxinsjava@localhost:7003/eureka/
+2018-08-11 10:10:02.871 [restartedMain] INFO  c.n.e.r.AbstractInstanceRegistry -Finished initializing remote region registries. All known remote regions: []
+2018-08-11 10:10:02.875 [restartedMain] INFO  c.n.e.DefaultEurekaServerContext -Initialized
+2018-08-11 10:10:03.045 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2018-08-11 10:10:03.064 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-08-11 10:10:03.070 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-08-11 10:10:03.074 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2018-08-11 10:10:03.078 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2018-08-11 10:10:03.080 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+2018-08-11 10:10:03.084 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-08-11 10:10:03.092 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-08-11 10:10:03.120 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2018-08-11 10:10:03.143 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+2018-08-11 10:10:03.173 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-08-11 10:10:03.204 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=26224909,type=ConfigurationPropertiesRebinder]
+2018-08-11 10:10:03.214 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2018-08-11 10:10:03.620 [restartedMain] INFO  o.s.c.s.DefaultLifecycleProcessor -Starting beans in phase 0
+2018-08-11 10:10:03.623 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry -Registering application unknown with eureka with status UP
+2018-08-11 10:10:03.715 [Thread-32] INFO  o.s.c.n.e.s.EurekaServerBootstrap -Setting the eureka configuration..
+2018-08-11 10:10:03.721 [Thread-32] INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka data center value eureka.datacenter is not set, defaulting to default
+2018-08-11 10:10:03.723 [Thread-32] INFO  o.s.c.n.e.s.EurekaServerBootstrap -Eureka environment value eureka.environment is not set, defaulting to test
+2018-08-11 10:10:03.876 [Thread-32] INFO  o.s.c.n.e.s.EurekaServerBootstrap -isAws returned false
+2018-08-11 10:10:03.879 [Thread-32] INFO  o.s.c.n.e.s.EurekaServerBootstrap -Initialized server context
+2018-08-11 10:10:03.881 [Thread-32] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Got 1 instances from neighboring DS node
+2018-08-11 10:10:03.883 [Thread-32] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Renew threshold is: 1
+2018-08-11 10:10:03.884 [Thread-32] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Changing status to UP
+2018-08-11 10:10:03.898 [Thread-32] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration -Started Eureka Server
+2018-08-11 10:10:03.954 [restartedMain] INFO  c.s.j.s.i.a.WebApplicationImpl -Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2018-08-11 10:10:04.033 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+2018-08-11 10:10:04.033 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+2018-08-11 10:10:04.033 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+2018-08-11 10:10:04.035 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+2018-08-11 10:10:04.764 [restartedMain] INFO  o.e.j.s.h.ContextHandler.application -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-11 10:10:04.765 [restartedMain] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-11 10:10:04.793 [restartedMain] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2018-08-11 10:10:04.829 [restartedMain] INFO  o.e.jetty.server.AbstractConnector -Started ServerConnector@43b790d0{HTTP/1.1,[http/1.1]}{0.0.0.0:7002}
+2018-08-11 10:10:04.834 [restartedMain] INFO  o.s.b.c.e.j.JettyEmbeddedServletContainer -Jetty started on port(s) 7002 (http/1.1)
+2018-08-11 10:10:04.838 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 7002
+2018-08-11 10:10:04.852 [restartedMain] INFO  c.c.m.Eureka_7002_StartSpringCloudApplication -Started Eureka_7002_StartSpringCloudApplication in 22.057 seconds (JVM running for 24.304)
+2018-08-11 10:20:03.890 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 10:25:02.885 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 10:28:32.302 [qtp1869036874-116] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.304 [qtp1869036874-26] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.302 [qtp1869036874-27] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.302 [qtp1869036874-115] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.304 [qtp1869036874-32] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.309 [qtp1869036874-115] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.306 [qtp1869036874-116] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.307 [qtp1869036874-26] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.304 [qtp1869036874-31] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.311 [qtp1869036874-31] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.309 [qtp1869036874-32] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.308 [qtp1869036874-27] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.396 [qtp1869036874-118] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.397 [qtp1869036874-118] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.703 [qtp1869036874-29] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.704 [qtp1869036874-29] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 10:28:32.938 [qtp1869036874-33] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com with status UP (replication=true)
+2018-08-11 10:28:32.938 [qtp1869036874-30] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com with status UP (replication=true)
+2018-08-11 10:28:33.329 [qtp1869036874-117] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com with status UP (replication=true)
+2018-08-11 10:30:03.887 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 10:40:03.059 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 10:40:03.888 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 10:50:03.889 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 10:55:02.976 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 11:00:03.889 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 11:10:02.981 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 11:10:03.960 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 11:13:07.945 [qtp1869036874-128] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8002.com
+2018-08-11 11:13:08.053 [qtp1869036874-128] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8002.com
+2018-08-11 11:13:08.235 [qtp1869036874-120] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8002.com
+2018-08-11 11:13:08.236 [qtp1869036874-120] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8002.com
+2018-08-11 11:13:09.878 [qtp1869036874-125] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-11 11:13:09.878 [qtp1869036874-126] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-11 11:13:09.913 [qtp1869036874-127] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-11 11:13:10.055 [qtp1869036874-31] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8002.com with status UP (replication=true)
+2018-08-11 11:20:03.890 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 11:25:03.042 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 11:30:03.890 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 11:40:02.995 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 11:40:03.890 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 11:50:03.892 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 11:55:02.998 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 12:00:03.892 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 12:10:03.152 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 12:10:03.892 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 12:20:03.892 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 12:25:03.017 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 12:30:03.893 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 12:49:58.362 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 594483ms
+2018-08-11 12:49:58.611 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 12:59:58.362 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 13:04:57.743 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 13:09:58.370 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 13:19:57.626 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 13:19:58.362 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 13:29:58.362 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 13:34:57.623 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 13:39:58.363 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 13:49:57.630 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 13:49:58.364 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 13:59:58.365 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 14:04:58.062 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 14:09:58.381 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 14:19:57.660 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 14:19:58.366 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 14:29:58.368 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2018-08-11 14:43:45.879 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 14:48:46.620 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 528267ms
+2018-08-11 14:58:45.879 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 14:58:46.621 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 15:08:46.622 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 15:13:45.896 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 15:18:46.634 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 15:28:45.891 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 15:28:46.625 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2018-08-11 15:33:56.041 [qtp1869036874-166] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.055 [qtp1869036874-166] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.259 [qtp1869036874-173] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.260 [qtp1869036874-173] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.304 [qtp1869036874-170] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.304 [qtp1869036874-170] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.520 [qtp1869036874-176] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.523 [qtp1869036874-176] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.691 [qtp1869036874-167] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.692 [qtp1869036874-167] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.733 [qtp1869036874-169] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.734 [qtp1869036874-169] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.733 [qtp1869036874-151] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.733 [qtp1869036874-164] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.755 [qtp1869036874-151] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:56.755 [qtp1869036874-164] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 15:33:57.948 [qtp1869036874-171] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-ZUUL-GATEWAY/gateway-9501.com with status UP (replication=true)
+2018-08-11 15:33:57.948 [qtp1869036874-164] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-ZUUL-GATEWAY/gateway-9501.com with status UP (replication=true)
+2018-08-11 15:33:57.949 [qtp1869036874-169] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-ZUUL-GATEWAY/gateway-9501.com with status UP (replication=true)
+2018-08-11 15:33:57.948 [qtp1869036874-151] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-ZUUL-GATEWAY/gateway-9501.com with status UP (replication=true)
+2018-08-11 15:33:58.365 [qtp1869036874-174] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-ZUUL-GATEWAY/gateway-9501.com with status UP (replication=true)
+2018-08-11 15:33:58.365 [qtp1869036874-166] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-ZUUL-GATEWAY/gateway-9501.com with status UP (replication=true)
+2018-08-11 15:33:58.850 [qtp1869036874-170] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-ZUUL-GATEWAY/gateway-9501.com with status UP (replication=true)
+2018-08-11 15:38:46.652 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 15:43:46.114 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 15:48:46.628 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2018-08-11 15:59:05.381 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 15:59:06.101 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 19488ms
+2018-08-11 16:09:06.102 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 16:14:05.378 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 16:19:06.102 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 16:29:05.385 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 16:29:06.109 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 7ms
+2018-08-11 16:39:06.123 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 2ms
+2018-08-11 17:04:10.305 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 17:09:11.030 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1204930ms
+2018-08-11 17:15:31.638 [qtp1869036874-193] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com with status DOWN (replication=true)
+2018-08-11 17:15:33.508 [qtp1869036874-216] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com with status DOWN (replication=true)
+2018-08-11 17:15:33.509 [qtp1869036874-218] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com with status DOWN (replication=true)
+2018-08-11 17:15:33.510 [qtp1869036874-219] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com with status DOWN (replication=true)
+2018-08-11 17:15:33.509 [qtp1869036874-212] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com with status DOWN (replication=true)
+2018-08-11 17:15:37.726 [qtp1869036874-204] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: MICROCLOUD-PROVIDER-DEPT/dept-8001.com
+2018-08-11 17:15:37.726 [qtp1869036874-209] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: MICROCLOUD-PROVIDER-DEPT/dept-8001.com
+2018-08-11 17:15:37.726 [qtp1869036874-195] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: MICROCLOUD-PROVIDER-DEPT/dept-8001.com
+2018-08-11 17:15:37.727 [qtp1869036874-193] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: MICROCLOUD-PROVIDER-DEPT/dept-8001.com
+2018-08-11 17:15:37.752 [qtp1869036874-195] INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:15:37.752 [qtp1869036874-223] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: MICROCLOUD-PROVIDER-DEPT/dept-8001.com
+2018-08-11 17:15:37.751 [qtp1869036874-209] INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:15:37.727 [qtp1869036874-224] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com (replication=true)
+2018-08-11 17:15:37.726 [qtp1869036874-222] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: MICROCLOUD-PROVIDER-DEPT/dept-8001.com
+2018-08-11 17:15:37.726 [qtp1869036874-219] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: MICROCLOUD-PROVIDER-DEPT/dept-8001.com
+2018-08-11 17:15:37.751 [qtp1869036874-204] INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:15:37.752 [qtp1869036874-193] INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:15:37.726 [qtp1869036874-221] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: MICROCLOUD-PROVIDER-DEPT/dept-8001.com
+2018-08-11 17:15:37.726 [qtp1869036874-218] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: MICROCLOUD-PROVIDER-DEPT/dept-8001.com
+2018-08-11 17:15:37.726 [qtp1869036874-216] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: cancel failed because Lease is not registered for: MICROCLOUD-PROVIDER-DEPT/dept-8001.com
+2018-08-11 17:15:37.753 [qtp1869036874-222] INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:15:37.753 [qtp1869036874-223] INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:15:37.754 [qtp1869036874-219] INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:15:37.754 [qtp1869036874-218] INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:15:37.754 [qtp1869036874-221] INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:15:37.755 [qtp1869036874-216] INFO  c.n.e.resources.InstanceResource -Not Found (Cancel): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:19:10.318 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 17:19:11.029 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 17:22:58.014 [qtp1869036874-223] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:58.262 [qtp1869036874-227] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:58.233 [qtp1869036874-230] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:58.158 [qtp1869036874-219] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:58.014 [qtp1869036874-204] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:58.014 [qtp1869036874-193] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:58.014 [qtp1869036874-216] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:58.232 [qtp1869036874-229] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:58.014 [qtp1869036874-221] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:58.233 [qtp1869036874-231] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:58.232 [qtp1869036874-228] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:58.233 [qtp1869036874-237] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:58.233 [qtp1869036874-235] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.846 [qtp1869036874-240] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.846 [qtp1869036874-236] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.900 [qtp1869036874-221] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.900 [qtp1869036874-219] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.900 [qtp1869036874-236] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.900 [qtp1869036874-230] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.901 [qtp1869036874-216] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.901 [qtp1869036874-229] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.901 [qtp1869036874-227] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.901 [qtp1869036874-193] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.901 [qtp1869036874-228] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.901 [qtp1869036874-231] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:23:00.119 [qtp1869036874-232] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:23:00.119 [qtp1869036874-232] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.901 [qtp1869036874-235] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:23:00.146 [qtp1869036874-241] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:23:00.146 [qtp1869036874-241] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.901 [qtp1869036874-240] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.902 [qtp1869036874-237] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.917 [qtp1869036874-223] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:22:59.929 [qtp1869036874-204] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:23:00.290 [qtp1869036874-242] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:23:01.177 [qtp1869036874-242] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-DEPT - dept-8001.com
+2018-08-11 17:23:04.862 [qtp1869036874-243] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com with status UP (replication=true)
+2018-08-11 17:23:04.861 [qtp1869036874-239] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com with status UP (replication=true)
+2018-08-11 17:23:04.862 [qtp1869036874-224] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com with status UP (replication=true)
+2018-08-11 17:23:04.860 [qtp1869036874-220] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com with status UP (replication=true)
+2018-08-11 17:23:04.862 [qtp1869036874-244] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com with status UP (replication=true)
+2018-08-11 17:23:04.861 [qtp1869036874-233] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-DEPT/dept-8001.com with status UP (replication=true)
+2018-08-11 17:29:11.040 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 17:34:10.320 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 17:39:11.110 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 17:49:10.519 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 17:49:11.030 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2018-08-11 21:26:17.831 [TaskBatchingWorker-target_localhost-3] ERROR c.n.e.c.ReplicationTaskProcessor -Network level connection to peer localhost; retrying after delay
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketTimeoutException: Read timed out
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.netflix.eureka.cluster.DynamicGZIPContentEncodingFilter.handle(DynamicGZIPContentEncodingFilter.java:48)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.eureka.transport.JerseyReplicationClient.submitBatchUpdates(JerseyReplicationClient.java:116)
+	at com.netflix.eureka.cluster.ReplicationTaskProcessor.process(ReplicationTaskProcessor.java:71)
+	at com.netflix.eureka.util.batcher.TaskExecutors$BatchWorkerRunnable.run(TaskExecutors.java:187)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 10 common frames omitted
+2018-08-11 21:27:08.536 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 12477521ms
+2018-08-11 21:32:08.290 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 21:37:08.558 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2018-08-11 21:47:07.975 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 21:47:08.537 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 21:57:08.539 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 22:02:07.886 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 22:07:08.539 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 22:13:46.536 [qtp1869036874-289] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-COMPANY - dept-8001.com
+2018-08-11 22:13:46.580 [qtp1869036874-289] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-COMPANY - dept-8001.com
+2018-08-11 22:13:47.116 [qtp1869036874-291] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-COMPANY - dept-8001.com
+2018-08-11 22:13:47.154 [qtp1869036874-291] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-COMPANY - dept-8001.com
+2018-08-11 22:13:47.322 [qtp1869036874-248] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-PROVIDER-COMPANY - dept-8001.com
+2018-08-11 22:13:47.322 [qtp1869036874-248] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-PROVIDER-COMPANY - dept-8001.com
+2018-08-11 22:13:48.949 [qtp1869036874-269] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-COMPANY/dept-8001.com with status UP (replication=true)
+2018-08-11 22:13:48.949 [qtp1869036874-279] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-COMPANY/dept-8001.com with status UP (replication=true)
+2018-08-11 22:13:48.949 [qtp1869036874-271] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-COMPANY/dept-8001.com with status UP (replication=true)
+2018-08-11 22:13:48.948 [qtp1869036874-287] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-COMPANY/dept-8001.com with status UP (replication=true)
+2018-08-11 22:13:48.948 [qtp1869036874-282] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-COMPANY/dept-8001.com with status UP (replication=true)
+2018-08-11 22:13:48.933 [qtp1869036874-248] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-COMPANY/dept-8001.com with status UP (replication=true)
+2018-08-11 22:13:48.933 [qtp1869036874-261] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-COMPANY/dept-8001.com with status UP (replication=true)
+2018-08-11 22:13:48.949 [qtp1869036874-284] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-COMPANY/dept-8001.com with status UP (replication=true)
+2018-08-11 22:13:49.353 [qtp1869036874-290] INFO  c.n.e.r.AbstractInstanceRegistry -Registered instance MICROCLOUD-PROVIDER-COMPANY/dept-8001.com with status UP (replication=true)
+2018-08-11 22:17:08.092 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 22:17:08.551 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 22:27:08.606 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 22:32:07.879 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 22:37:08.541 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 1ms
+2018-08-11 22:47:07.936 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 22:47:08.540 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 22:57:08.543 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 23:02:07.905 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 23:07:08.543 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 23:17:07.895 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 23:17:08.542 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 23:27:08.546 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 23:32:09.411 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 23:37:08.569 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 11ms
+2018-08-11 23:47:07.948 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl -Current renewal threshold is : 0
+2018-08-11 23:47:08.555 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 0ms
+2018-08-11 23:57:08.579 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Running the evict task with compensationTime 14ms
+2018-08-11 23:57:13.181 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Evicting 1 items (expired=4, evictionLimit=1)
+2018-08-11 23:57:16.878 [Eureka-EvictionTimer] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: expired lease for MICROCLOUD-ZUUL-GATEWAY/gateway-9501.com
+2018-08-11 23:57:23.338 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry -Cancelled instance MICROCLOUD-ZUUL-GATEWAY/gateway-9501.com (replication=false)
+2018-08-11 23:58:10.393 [qtp1869036874-302] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:10.419 [qtp1869036874-302] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:10.680 [qtp1869036874-312] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:12.202 [qtp1869036874-293] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:12.202 [qtp1869036874-312] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:12.483 [qtp1869036874-293] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:26.830 [qtp1869036874-299] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:29.139 [qtp1869036874-311] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:33.741 [qtp1869036874-311] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:33.741 [qtp1869036874-299] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:52.512 [qtp1869036874-322] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:52.639 [qtp1869036874-322] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:53.950 [qtp1869036874-312] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:54.210 [qtp1869036874-312] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:54.300 [qtp1869036874-320] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:58:54.453 [qtp1869036874-320] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:59:05.507 [qtp1869036874-309] WARN  c.n.e.r.AbstractInstanceRegistry -DS: Registry: lease doesn't exist, registering resource: MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com
+2018-08-11 23:59:05.508 [qtp1869036874-309] WARN  c.n.e.resources.InstanceResource -Not Found (Renew): MICROCLOUD-ZUUL-GATEWAY - gateway-9501.com

@@ -1,0 +1,19 @@
+server:
+  port: 8101
+spring:
+  application: 
+    name: microcloud-provider-company       # company微服务名称（此名称为日后负载均衡）
+eureka: 
+  client:     # 客户端进行Eureka注册配置
+    service-url:   
+      defaultZone: http://admin:caxinsjava@localhost:7001/eureka,http://admin:caxinsjava@localhost:7002/eureka,http://admin:caxinsjava@localhost:7003/eureka
+  instance: 
+    lease-renewal-interval-in-seconds: 2    # 设置心跳的时间间隔（默认是30秒）
+    lease-expiration-duration-in-seconds: 5    # 如果现在超过了5秒（上一次发送心跳后到等待下一次发送心跳的间隔时间）的间隔（默认是90秒），则认为该服务已经宕机了
+    instance-id: dept-8001.com      # 在信息列表中显示主机名称  
+    prefer-ip-address: true        # 访问的路径变为IP地址
+info: 
+  app.name: nevergiveup
+  company.name: com.caxins
+  build.artifactId: microcloud-provider-company-8001
+  bulid.version: 0.0.1
